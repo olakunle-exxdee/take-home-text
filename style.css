@@ -46,6 +46,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: var(--font);
@@ -100,9 +101,7 @@ select {
   color: #a5b4cb;
   display: none;
 }
-.number-check {
-  background-color: #dceaff;
-}
+
 .active .item-text {
   color: var(--primary-text);
 }
@@ -137,7 +136,7 @@ select {
 .method-text {
   font-size: 1.2rem;
   margin-bottom: 0.6rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 .method-box-group {
   flex-grow: 1;
@@ -274,7 +273,9 @@ select {
 .footer-show-hide {
   display: block;
 }
-
+.number-check {
+  background-color: #dceaff !important;
+}
 @media screen and (min-width: 50em) {
   .container {
     display: grid;
