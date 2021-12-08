@@ -291,7 +291,7 @@ select {
   }
   .flex-content {
     grid-column: span 8;
-    padding: 2rem 6rem;
+    padding: 4rem 6rem;
   }
   .item-text {
     display: block;
