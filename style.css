@@ -46,7 +46,6 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: var(--font);
@@ -291,7 +290,7 @@ select {
   }
   .flex-content {
     grid-column: span 8;
-    padding: 6rem 6rem 2.5rem 6rem;
+    padding: 2rem 6rem;
   }
   .item-text {
     display: block;
